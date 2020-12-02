@@ -1,0 +1,16 @@
+
+div{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+}
+.one{
+    background:red;
+}
+.two{
+    background:green;
+}
+.three{
+    background:blue;
+}
+10:06:51,
