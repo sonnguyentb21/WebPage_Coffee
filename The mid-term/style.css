@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    color:black;
+}
+html, body{
+    margin:0;
+    padding: 0;
+}
+.main-header{
+    background:yellow;
+    padding: 10px;
+}
+.nav{
+    background: blue;
+    padding:5px;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.2em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container1{
+    background-color:pink;
+    width:100%;
+    height: auto;
+    margin: 20px 2.5em 0;
+    padding: 0.5em;
+    display: flex;
+}
+.content-AV{
+    width: 30%;
+    margin-right: 20px;
+    float: left;
+}
+
+.content-AVV{
+    position: relative;
+    background: #545454;
+    width: 35%;
+}
+.content-news{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    border-bottom:1px solid black;
+}
+.img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+.img img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+
+}
+.content-fix{
+    position: absolute;
+    width: 110px;
+}
+.cboth{
+    clear: both;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+
+
+
+
+
+/* .content-part2{
+    background:yellow;
+    width: 70%;
+    height: 300px;
+}
+.size-image{
+    width: 100px;
+    height: 70px;
+    clear: both;
+}
+.size-image1{
+    width: 250px;
+    height: auto;
+    clear: both;
+}
+.content-fix a{
+    text-decoration: none;
+}
+.content-part12{
+    display: inline-block;
+    width: 30%;
+    background: yellowgreen;
+
+}
+.container2{
+    background: yellow ;
+    padding-top: 0;
+    width:100% ;
+    height: 400px;
+    margin: 0 2.5em;
+    padding: 0.5em;
+    display: flex;
+}
+.container-21{
+    background: green;
+    width: 50%;
+}
+.container-22{
+    background: pink;
+    width: 50%;
+}
+.main-footer{
+    background:black;
+    width: 100%;
+    height: 2em;
+    margin: 0 2.5em;
+    padding: .5em ;
+} */
